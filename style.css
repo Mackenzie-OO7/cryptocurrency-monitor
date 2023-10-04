@@ -1,0 +1,53 @@
+.header {
+    background-color: #1277A9;
+    color: #000
+}
+  
+.bitcoin {
+    background-color: #F7931A;
+    color: #fff;
+}
+.ethereum {
+    background-color: #1277A8;
+    color: #fff;
+}
+.ripple {
+    background-color: #345281;
+    color: #fff;
+}
+.litecoin {
+    background-color: #B0B0B0;
+    color: #fff;
+}
+.matic {
+    background-color: #510180;
+    color: #fff;
+}
+.bnb {
+    background-color: #F3BA2F;
+    color: #fff;
+}
+.solana {
+    background-color: #000;
+    color: #fff;
+}
+.cardano {
+    background-color: #4169E1;
+    color: #fff;
+}
+.polkadot {
+    background-color: #ea687e;
+    color: #fff;
+}
+.tron {
+    background-color: #FF0000;
+    color: #fff;
+}
+.dogecoin {
+    background-color: #978045;
+    color: #fff;
+}
+.avalanche {
+    background-color: #f32f2f;
+    color: #fff;
+}  

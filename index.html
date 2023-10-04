@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Crypto Dashboard</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!--header-->
+    <header class="header text-center border border-1">
+        <div class="container-fluid">
+          <h1 class="logo">CRYPTO DASHBOARD</h1>
+          <p class="fs-3 fst-italic">Live prices for your favorite tokens.</p>
+        </div>
+    </header>
+  <!-- #/ header -->
+
+    <div class="content-body mt-5">
+        <div class="container-fluid">
+            <div class="row m-t-25">
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded bitcoin">
+                            <!--<div class="currency-card--icon pull-right">
+                                <i class="cc BTC-alt" title="BTC"></i>
+                            </div> -->
+                            <h4>Bitcoin</h4>
+                            <h2>
+                                $<span id="btc">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded ethereum">
+                            <!--<div class="currency-card--icon pull-right">
+                                <i class="cc ETH-alt" title="ETH"></i>
+                            </div> -->
+                            <h4>Ethereum</h4>
+                            <h2>
+                                $<span id="eth">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded ripple">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc XRP-alt" title="XRP"></i>
+                            </div> -->
+                            <h4>Ripple</h4>
+                            <h2>
+                                $<span id="xrp">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded litecoin">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc LTC-alt" title="LTC"></i>
+                            </div> -->
+                            <h4>Litecoin</h4>
+                            <h2>
+                                $<span id="ltc">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded matic">
+                           <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc MATIC-alt" title="MATIC"></i>
+                            </div> -->
+                            <h4>Matic</h4>
+                            <h2>
+                                $<span id="matic">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded bnb">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc BNB-alt" title="BNB"></i>
+                            </div> -->
+                            <h4>BNB</h4>
+                            <h2>
+                                $<span id="bnb">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded solana">
+                           <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc SOL-alt" title="SOL"></i>
+                            </div> -->
+                            <h4>Solana</h4>
+                            <h2>
+                                $<span id="sol">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded cardano">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc ADA-alt" title="ADA"></i>
+                            </div> -->
+                            <h4>Cardano</h4>
+                            <h2>
+                                $<span id="ada">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded polkadot">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc DOT-alt" title="DOT"></i>
+                            </div> -->
+                            <h4>Polkadot</h4>
+                            <h2>
+                                $<span id="dot">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded tron">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc TRX-alt" title="TRX"></i>
+                            </div> -->
+                            <h4>TRON</h4>
+                            <h2>
+                                $<span id="trx">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded dogecoin"> 
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc DOGE-alt" title="DOGE"></i>
+                                </div> -->
+                            <h4>Dogecoin</h4>
+                            <h2>
+                                $<span id="doge">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+              <div class="col-lg-3 mb-3">
+                    <div class="card currency-card-rounded">
+                        <div class="card-body rounded avalanche">
+                            <!-- <div class="currency-card--icon pull-right">
+                                <i class="cc AVAX-alt" title="AVAX"></i>
+                            </div> -->
+                            <h4>Avalanche</h4>
+                            <h2>
+                                $<span id="avax">0.00</span> <i class="bi "></i>
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+
+</body>
+</html>
